@@ -1,0 +1,34 @@
+{
+  "name": "data-models",
+  "version": "0.1.0",
+  "language": "python",
+  "description": "Shared Pydantic schemas for accounts, holdings, transactions.",
+  "size_budget": 200000,
+  "entrypoints": [
+    {
+      "name": "Account",
+      "description": "Account model",
+      "parameters_schema": {},
+      "return_schema": {}
+    },
+    {
+      "name": "Holding",
+      "description": "Holding model",
+      "parameters_schema": {},
+      "return_schema": {}
+    },
+    {
+      "name": "Transaction",
+      "description": "Transaction model",
+      "parameters_schema": {},
+      "return_schema": {}
+    }
+  ],
+  "deps": [
+    {
+      "package": "pydantic",
+      "version": ">=2.6"
+    }
+  ],
+  "tests": ["tests/test_models.py"]
+}
