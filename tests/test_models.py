@@ -1,5 +1,4 @@
 import pytest
-from datetime import datetime, date
 from pydantic import ValidationError
 from models import Account, Holding, Transaction
 
