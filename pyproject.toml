@@ -1,0 +1,12 @@
+[project]
+name = "data-models"
+version = "0.1.0"
+description = "Canonical finance data models for PrometheusBlocks"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.6"
+]
+
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"
